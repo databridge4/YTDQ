@@ -1,0 +1,83 @@
+/* styles.css */
+
+.container {
+  width: 100%;
+  max-width: 640px;
+  margin: auto;
+  padding: 10px;
+  align-items: center;
+}
+
+/* styles.css */
+
+.container2 {
+  width: 100%;
+  max-width: 640px;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers all child elements horizontally */
+}
+
+.select {
+  margin: 20px;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+
+.YouTubeEmbed {
+  margin-bottom: 20px;
+  width: 100%; /* Ensures the embed takes the full width of the container */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Ensures the form takes the full width of the container */
+}
+
+.time-inputs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.time-inputs label,
+.time-inputs input,
+.time-inputs select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.time-inputs select {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.submit-button {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .time-inputs label,
+  .time-inputs input,
+  .time-inputs select {
+    width: 48%;
+  }
+
+  .time-inputs select {
+    width: 40%;
+  }
+}
+
+/* Loader style */
+.Loader {
+  margin-top: 20px;
+}

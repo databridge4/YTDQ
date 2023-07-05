@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Застосовуємо стилі для мобільних пристроїв з максимальною шириною 768px */
+@media (max-width: 768px) {
+    .card {
+        width: 90%; /* Збільшуємо ширину на мобільних пристроях */
+        padding: 10px; /* Зменшуємо відступ, щоб вміст краще поміщався на екрані */
+    }
+}

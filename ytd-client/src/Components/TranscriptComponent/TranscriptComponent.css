@@ -1,0 +1,41 @@
+.transcript {
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* змініть на бажаний шрифт */
+  line-height: 1.6; /* Забезпечує більше простору між рядками для читабельності */
+  color: #333; /* Темний сірий колір для легкого читання */
+}
+
+.select {
+  margin: 20px;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+
+.container2 {
+  width: 100%;
+  max-width: 640px;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers all child elements horizontally */
+}
+
+.transcript h2 {
+  margin-bottom: 10px; /* Додає відступ під заголовками */
+  color: #007bff; /* Синій колір для заголовків */
+}
+
+.transcript p {
+  margin-bottom: 20px; /* Додає відступ під абзацами */
+  text-align: justify; /* Вирівнює текст по ширині */
+}
+.hover:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
