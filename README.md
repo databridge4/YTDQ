@@ -16,11 +16,13 @@ The YTDQ project is divided into two main components, represented by two folders
 YTDQ has been developed to provide the following functionalities:
 
 
+<ul>
+<li>Obtaining Transcripts from YouTube Videos: YTDQ can automatically generate a textual transcript from a YouTube video.</li> 
 
-• Obtaining Transcripts from YouTube Videos: YTDQ can automatically generate a textual transcript from a YouTube video.
+<li>Extracting Quotes and Other Content from Transcripts: Quotes or other content can be selected from the transcript for further use.</li> 
 
-• Extracting Quotes and Other Content from Transcripts: Quotes or other content can be selected from the transcript for further use.
+<li>Downloading Video Clips from YouTube: YTDQ allows users to download specified video clips from YouTube, choosing the desired video quality.</li> 
 
-• Downloading Video Clips from YouTube: YTDQ allows users to download specified video clips from YouTube, choosing the desired video quality.
+<li>Downloading Video Clips for a Specified Time Interval: Users can also download a video clip via a link, specifying the time interval in the video that they need.</li> 
 
-• Downloading Video Clips for a Specified Time Interval: Users can also download a video clip via a link, specifying the time interval in the video that they need.
+</ul>
